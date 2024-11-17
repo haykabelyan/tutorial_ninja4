@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Nov 17 12:44:37 AMT 2024","Sun Nov 17 12:44:42 AMT 2024","5413","test","test_slider","","","","test_slider_functionality",""
+"passed","Sun Nov 17 12:44:33 AMT 2024","Sun Nov 17 12:44:36 AMT 2024","3339","test","Search Functionality","","","","Search for MacBook Product","This test verifies the search functionality by searching for a MacBook and checking that the search results are filtered correctly."
+"passed","Sun Nov 17 12:44:29 AMT 2024","Sun Nov 17 12:44:32 AMT 2024","3427","test","test_menu","","","","test_menu_items",""
+"passed","Sun Nov 17 12:44:25 AMT 2024","Sun Nov 17 12:44:28 AMT 2024","3482","test","Product Operations","","","","Add MacBook to Cart","This test verifies that a MacBook can be successfully added to the shopping cart."
