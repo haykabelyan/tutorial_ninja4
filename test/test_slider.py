@@ -1,6 +1,8 @@
 from pages.SliderPage import SliderPage
+import pytest
 
 
+@pytest.mark.regression
 def test_slider_functionality(driver):
     slider_page = SliderPage(driver)
     slider_page.open()

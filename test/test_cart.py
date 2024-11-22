@@ -1,12 +1,13 @@
 from pages.CartPage import CartPage
 import allure
-
+import pytest
 
 @allure.feature('Shopping Cart')
 @allure.suite('Product Operations')
 @allure.title('Add MacBook to Cart')
 @allure.description('This test verifies that a MacBook can be successfully added to the shopping cart.')
 @allure.severity('critical')
+@pytest.mark.smoke
 def test_add_to_cart(driver):
     with allure.step('Open Cart Page'):
         cart_page = CartPage(driver)
